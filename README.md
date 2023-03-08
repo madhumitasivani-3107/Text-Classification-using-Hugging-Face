@@ -23,16 +23,3 @@ Evaluation Metrics and Results:
 The evaluation metrics used for this task is accuracy, precision, recall, F1-score. The model achieved an accuracy of 73.8%, precision of 75.9%, recall score of 73.5%, F1-score of 75.1% on the test set.
 
 The model achieved a moderate accuracy of 73.8% on the test set. However, there is still room for improvement. One possible way to improve the performance of the model is to use a larger pre-trained model such as BERT-large or GPT-2. Another way to improve the performance of the model is to use data augmentation techniques such as back-translation or word replacement.
-
-Sample Predictions and Explanations:
-Here are some sample predictions made by the model:
-    1. Input: "The food was terrible, and the service was even worse. I would not recommend this place to anyone."
-       Prediction: 1-star 
-       Explanation: The model predicts this input to belong to the 1-star category, which is correct because the input contains negative sentiment words such as "terrible" and "worse."
-    2. Input: "The food was decent, but the service was slow. I would give this place a 3-star rating." 
-       Prediction: 3-star 
-       Explanation: The model predicts this input to belong to the 3-star category, which is correct because the input contains mixed sentiment words such as "decent" and "slow."
-    3. Input: "I had an amazing experience at this restaurant. The food was delicious, and the service was excellent. I would definitely give it a 5-star rating." 
-       Prediction: 4-star 
-       Explanation: The model predicts this input to belong to the 4-star category, which is incorrect because the input contains positive sentiment words such as "amazing" and "excellent" which would indicate a higher rating. This could be due to the fact that the model may not be able to accurately capture the nuances of language.
-Overall, the model performs reasonably well on the task of rating classification, achieving an accuracy of 73.8% on the test set. However, there is still room for improvement, and the model can be further fine-tuned or improved using data augmentation techniques.
